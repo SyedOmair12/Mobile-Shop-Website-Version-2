@@ -1,0 +1,137 @@
+/*
+filename:syed omair
+author:syed omair
+created:29-03-2020
+last modified:25-03-2020
+description: This stylesheet is for my assignment
+*/
+
+/* below the code is for universal color and font family */
+
+* {font-family: calabri, sans-serif;}
+*{color:#2F4F4F; }
+
+/* below the code is for formatting menu*/
+nav a {text-decoration: none;
+        font-weight:bolder;
+        font-size:large; 
+		font-style:oblique;
+		background-color: lightgreen;
+	         padding:0.2em 0.8em;
+	 border: 5px solid #CCC; 
+	}
+	
+/* below the code is for formatting the background */
+#index { background-color:lightyellow ;	}
+	 
+
+/* below the code is for formatting footer */
+footer { font-size: small;  font-weight:bold;
+color:black;
+text-align: center;  }
+
+
+/* below the code is for formatting h1 using short hand font property */
+h1 {font: oblique normal bolder larger arial,fantasy; color:red;  background-color:yellow; float: right; border:2px dotted green;	} 
+
+
+/* below the code is for formatting aside*/
+aside {width: 25%;
+text-align:center;
+        font-weight:bold;
+        float: right;
+		border: 3px solid orange;
+		padding: 0.5px;
+        margin: 0.5px;
+background-color: lightpink; 
+clear: right;}
+
+/* below the code is for formatting table with background color */
+
+      table {border: 1px solid black; padding:1px; background-color:orange;  font-weight:bolder; }
+	 th,td,tr {border: 1px solid black; }
+	 th {background-color: lightblue;}
+	 td,tr {background-color: lightgrey; }
+	 
+/* below the code is for formatting footer width */
+footer {width: 100%;}
+
+/* below the code is for formatting definationlist */
+dl {background-color: lightyellow; border:2px solid black; margin: 1px; padding: 1px;  }
+dl, dt {color: purple; text-align: left; font-weight:bold; }
+dd { color: green;  background-color:white; }
+
+/* below the code is for formatting mt time table floating right and table cells backgroundcolor in hexadecimal value */
+.timetable { margin: auto ; font-weight: bold; clear:right;}
+th, td .timetable { background-color: #00FF00; font-weight: bold; clear:right;}
+	
+/* below the code is for formatting figure with border and bg color */
+.fig { border: 4px double purple;  padding:4px; font-weight: bolder; background-color: lightblue; 
+float: right; }
+
+ 
+/* below the code is for formatting images with border and floating  */
+img { border: 4px solid black; background-color: red; padding: 6px; font-weight: bold; }
+
+
+/* below the code is for formatting h2,h3,h4, level heading*/
+h2, h3, h4 {border:2px solid green; color: blue; font-family: arial; background-color:lightgrey; }
+ 
+ /* below the code is for formatting paragraph  */
+ p {color: purple; font-family: arial; font-size: large; font-style: oblique; }
+
+ /* below the code is for formatting list-item */
+ ul li {list-style-type:square;  color: black;}
+  ul ol li {color: red;  list-style-type:circle;}
+  
+  
+  /* below the code is for imput in the form */
+  
+  input:focus {background-color: white;}
+  /* below the code is for an unvisisted link */
+  a:link {color: black;}
+  
+  /* below the code is for a visisted link */
+  a:visited {background-color: lightgreen;}
+  
+  /* below the code is for bg color of all pages*/
+  body { background-color: lightblue }
+  
+  /* below the code is for legend in the form*/
+  legend {color:black; background-color: lightpink;  font-weight: bolder;}
+  
+  /* below the code is for fieldset in form */
+  fieldset {background-color: lightyellow; }
+  
+  /* below the code is for hover over anchor tag */
+   a:hover {border: 6px double black;}
+   
+   /* below the code is for hover over figure element*/
+   fig:hover {border: 2px dashed green; }
+   
+   /* below the code is for hover over aside*/
+   aside:hover {background-color:white; text-shadow: 1px 1px 2px purple; }
+   
+   /* below the code is for hover over h1*/
+   h1:hover{text-shadow: 2px 2px 2px black; }
+   
+   /* below the code is for hover over h2*/
+   h2:hover {color:orange; text-shadow: 2px 2px 2px blue;}
+   
+    /* below the code is for hover over h3*/
+   h3:hover {color:black; text-shadow: 2px 2px 2px red;}
+   
+    /* below the code is for hover over h4*/
+   h4:hover {color:red; text-shadow: 2px 2px 2px lightgreen;}
+    
+	/* below the code is for hover over table*/
+   table:hover {background-color:white;}
+   
+    /* below the code is for hover over footer*/
+   footer:hover {color:black; text-shadow: 2px 2px 2px yellow; background-color:white;}
+
+  
+ 
+ 
+ 
+
